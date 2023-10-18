@@ -1,0 +1,217 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 18, 2021, 11:35:54 AM
+    Author     : DELL
+*/
+
+body{
+	text-align: center;
+	align-content: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+         margin-left: auto;
+         margin-right:auto;
+         font-size: 20px;
+	
+
+
+}
+
+form{
+	font-size: 20px; 
+	display: inline-table; 
+	text-align: start; 
+	size:auto;
+}
+
+fieldset{
+	//border:1px black; 
+	font-size: 20px;
+	overflow: auto;
+	resize: both;
+	outline: 5px solid rgba(47, 59, 59, 0.83);
+	border-radius: 13px;
+	padding: 30px 30px 30px 30px;
+	background-color:pink;
+        
+	opacity: 0.71;
+}
+
+
+
+.data{
+	font-size: 20px; 
+	display:table-cell; 
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px 10px 10px 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+
+
+}
+
+td{
+	padding: 20px 20px 20px 20px;
+          margin-left: auto;
+  margin-right: auto;
+
+}
+
+table.data {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+table.data td, table.data th {
+	width: 200px;
+        border-width: 2px;
+        border-color: #000000;
+        border-style: solid;
+        padding: 10px;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+  
+}
+
+table.data th {
+  background-color: #00d5ff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+input.btn {
+  border-radius: 6;
+  border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 7px;
+  background: #00ffbb;
+  border: solid #000000 0px;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input.btn:hover {
+  background: #14e3a8;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-left: auto;  background: #14e3a8;
+
+  margin-right: auto;
+}
+/*
+body{
+	text-align: center;
+	align-content: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+form{
+	font-size: 20px; 
+	display: inline-table; 
+	text-align: start; 
+	size:auto;
+}
+
+fieldset{
+	border:1px black; 
+	font-size: 20px;
+	overflow: auto;
+	resize: both;
+	outline: 5px solid rgba(47, 59, 59, 0.83);
+	border-radius: 13px;
+	padding: 20px 20px 20px 20px;
+	background-color:yellow;
+	opacity: 0.71;
+}
+
+.data{
+	font-size: 20px; 
+	display:table-cell; 
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px 10px 10px 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+td{
+	padding: 20px 20px 20px 20px;
+}
+
+table.data {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 0px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table.data td, table.data th {
+	width: 200px;
+   border-width: 2px; 
+  border-color: #000000;
+  border-style: solid;
+  padding: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table.data th {
+  background-color: #00d5ff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+input.btn {
+  border-radius: 6px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 30px;
+  padding: 10px;
+  background: #00ffbb;
+  border: solid #000000 0px;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+input.btn:hover {
+  background: #14e3a8;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}*/

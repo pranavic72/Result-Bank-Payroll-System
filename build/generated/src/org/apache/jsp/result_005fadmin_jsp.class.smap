@@ -1,0 +1,20 @@
+SMAP
+result_005fadmin_jsp.java
+JSP
+*S JSP
+*F
++ 0 result_admin.jsp
+result_admin.jsp
++ 1 result_header.jsp
+result_header.jsp
++ 2 result_footer.jsp
+result_footer.jsp
+*L
+5,18:54
+5#1,31:72
+22#0,22:102
+44,38:125
+81,3:163
+5#2,39:166
+83#0,4:204
+*E

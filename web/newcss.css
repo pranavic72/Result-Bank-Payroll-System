@@ -1,0 +1,284 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2022, 10:19:40 PM
+    Author     : DELL
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.body{
+           box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+
+    
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    
+}
+/*
+body{
+    
+    background-image: url("../img/back7.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+.heading{
+    text-align: left;
+    float: left;
+    font-size: 30px;
+    padding: 10% 20px 20px 20px;
+    line-height: 200%;
+//     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.content{
+    margin-top: 6%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.me{
+    float: right;
+    
+}
+
+.myfacelol{
+    margin-top: 25%;
+    border-radius: 500px;
+    border: 12px white;
+    
+}
+.background{
+    max-width: 100%;
+    max-height: 100%;
+}*/
+
+li, a {
+    //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5px 3% 0% 0%;
+    height: 80px;
+    background-color: coral;
+ 
+    
+   
+}
+
+
+
+.logo {
+    cursor:pointer;
+    
+   max-width: 7%;
+   height: auto;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px ;
+    border: none;
+    border-radius: 50px;
+    
+    
+}
+
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    border: none;
+    border-radius: 50px;
+    color: black;
+}
+
+.nav_links li a:hover {
+    color: aqua;
+    
+}
+
+
+/*.title {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 21px;
+
+}
+
+
+table.education {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    width: 50%;
+    background-color: #000000;
+    opacity: 0.6;
+    border-collapse: collapse;
+    border-width: 10px;
+    border-color: #080000b4;
+    border-style: solid;
+    color: #000000;
+     font-family: 'Poppins', sans-serif; 
+  }
+  
+  table.education td, table.education th {
+    border: none;
+     border-style: solid; 
+    color: white;
+    opacity: 1;
+    padding: 3pt;
+     font-family: 'Poppins', sans-serif; 
+  }
+  
+  table.education thead {
+    background-color: #ffffff00;
+     font-family: 'Poppins', sans-serif; 
+  }
+
+  table.skills {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    width: 50%;
+    background-color: #000000;
+    opacity: 0.6;
+    border-collapse: collapse;
+    border-width: 10px;
+    border-color: #080000b4;
+    border-style: solid;
+    color: #000000;
+     font-family: 'Poppins', sans-serif; 
+  }
+  
+  table.skills td, table.skills th {
+    border: none;
+     border-style: solid; 
+    color: white;
+    z-index: 1;
+    opacity: 1;
+    padding: 3pt;
+     font-family: 'Poppins', sans-serif; 
+  }
+  
+  table.skills thead {
+    background-color: #ffffff00;
+     font-family: 'Poppins', sans-serif; 
+  }
+  label{
+    float: left;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+fieldset{
+    border: none;
+    width: fit-content;
+    margin:auto;
+}
+input[type=text], input[type=password], input[type=email] { 
+    font-size: medium; 
+    width: 100%;  
+    padding: 20px;
+    display: inline-block;
+    border:none;
+    background: #000;
+    border-radius: 5px;
+    opacity: 0.6; 
+    outline: none;
+    
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background: #000;
+    opacity: 1;
+    
+    
+}
+
+.sub_btn {  
+    background-color:#e94b2fe5;  
+    color: black;  
+    padding: 15px 40px; 
+    font-size: 20px; 
+    margin: 8px 0;  
+    border: none; 
+    border-radius: 5px; 
+    
+    display: inline-block;
+    position: center;
+    opacity: 0.9;  
+}  
+.sub_btn:hover {  
+     background: linear-gradient(#fff 0%,#76ffff 25%); 
+    background:linear-gradient(120deg,#bd0ee9 20.69% , #ff77ed 50.19%,  #ff3d3d 79.69% );
+    
+    color:#000;
+    transition: 0.5s;
+    
+}
+
+ .social_bar li, a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+} 
+
+ .social_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5px 3% 0% 0%;
+    height: 60px;
+    
+   
+}
+
+.social_links{
+    list-style: none;
+}
+
+.social_links li{
+    display: inline-block;
+    padding: 0px 20px ;
+    border: none;
+    border-radius: 50px;
+    
+    
+}
+
+
+.social_links li a {
+    transition: all 0.3s ease 0s;
+    border: none;
+    border-radius: 50px;
+    color: #ffff;
+}
+
+.social_links li a:hover {
+    color:#e94b2fe5
+    
+} */

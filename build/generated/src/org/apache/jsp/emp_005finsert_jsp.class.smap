@@ -1,0 +1,20 @@
+SMAP
+emp_005finsert_jsp.java
+JSP
+*S JSP
+*F
++ 0 emp_insert.jsp
+emp_insert.jsp
++ 1 emp_header.jsp
+emp_header.jsp
++ 2 emp_footer.jsp
+emp_footer.jsp
+*L
+5,27:53
+5#1,31:80
+31#0,85:110
+116,32:196
+147,3:228
+5#2,37:231
+149#0,4:267
+*E

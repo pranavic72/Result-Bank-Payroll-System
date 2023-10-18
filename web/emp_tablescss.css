@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 16, 2022, 5:32:07 PM
+    Author     : DELL
+*/
+
+div{
+    margin:auto;
+    padding: 1% 25% 1% 25%;
+}            
+.data{
+    font-size: 20px; 
+    display:table-cell; 
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    /*                        top: 20%;*/
+    padding: auto;
+
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+
+td{
+    padding: 10px
+}
+
+table.data {
+    /*                    position: absolute;*/
+    width: auto;
+    /*                padding: 50%;*/
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 0px;
+    border-color: #000000;
+    text-align: center;
+    border-style: solid;
+    color: #000000;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table.data td, table.data th {
+    width: auto;
+
+    /* border-width: 2px; */
+    border-color: #000000;
+    border-style: solid;
+    padding: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table.data th {
+    background-color: coral;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.btn {
+
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 7px;
+    background: #00ffbb;
+    border: solid #000000 0px;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background: #14e3a8;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-left: auto;  background: #14e3a8;
+
+    margin-right: auto;
+}
+#insert{
+    border: none;
+}
